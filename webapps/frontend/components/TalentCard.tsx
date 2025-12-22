@@ -1,5 +1,6 @@
 import { Star, MapPin, User, Link, Briefcase } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 interface TalentCardProps {
   name: string;
@@ -32,7 +33,7 @@ export default function TalentCard({
         <div className="flex items-start gap-3 md:gap-4">
           <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#093F42] md:h-14 md:w-14">
             {image ? (
-              <img
+              <Image
                 src={image || "/placeholder.svg"}
                 alt={name}
                 className="h-full w-full rounded-full object-cover"

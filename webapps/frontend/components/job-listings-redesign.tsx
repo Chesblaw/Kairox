@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Building, Clock, DollarSign } from "lucide-react"
+import { Clock, DollarSign } from "lucide-react"
 
 export function JobListingsRedesign() {
   const jobs = [
