@@ -2,6 +2,7 @@
 a decentralized talent exchange built on **Starknet**, designed to connect verified professionals with real opportunities at the right moment. By combining on-chain identity, reputation-based trust, smart contract workflows, and AI-assisted matching, Kairox rethinks how work is discovered, evaluated, and executed in a trust-minimized environment.
 
 ## Preview
+<img width="1491" height="806" alt="Screenshot from 2025-12-22 10-24-47" src="https://github.com/user-attachments/assets/ece332e8-2d27-4081-a7a8-c0b9defb3dea" />
 
 ## Key Features
 
