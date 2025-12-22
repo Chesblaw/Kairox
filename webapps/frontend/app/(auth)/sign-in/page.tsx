@@ -75,7 +75,7 @@ export default function SignIn() {
 
             {/* Sign Up Link */}
             <p className="text-center mt-4 text-gray-400">
-              Don't have an account?{" "}
+            {"Don't"} have an account?{" "}
               <Link href="/sign-up" className="text-[#0FA5AA] hover:underline">
                 Sign Up
               </Link>
