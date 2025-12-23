@@ -3,14 +3,14 @@ import { FeaturesSection } from "@/components/feautures-section";
 import { HeroSection } from "@/components/hero-section";
 import { HowItWorks } from "@/components/how-it-works";
 import { JobListingsRedesign } from "@/components/job-listings-redesign";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/ui/footer";
+import { Navigation } from "../components/layout/navigation";
+import { Footer } from '../components/layout/footer';
 import Image from "next/image";
 
 export default function Home() {
     return (
         <div className="min-h-screen   text-white px-20">
-            <Navbar />
+            <Navigation />
             {/* Corner grids */}
             <Image
                 src="/grid.png"
