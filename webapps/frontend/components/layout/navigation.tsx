@@ -12,6 +12,7 @@ import {
   Menu,
   X,
   Users,
+  Briefcase,
   Zap,
 } from 'lucide-react';
 import Link from 'next/link';
@@ -27,6 +28,7 @@ export function Navigation() {
   const navItems = [
     { href: '/', label: 'Home', icon: Hexagon },
     { href: '/explore', label: 'Explore', icon: Users },
+    { href: '/jobs', label: 'Jobs', icon: Briefcase },
   ];
 
   const isActive = (href: string) => {
