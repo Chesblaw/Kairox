@@ -6,7 +6,6 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
 import { PageLayout } from '@/components/layout/page-layout';
 import { pageMetadata } from '@/lib/metadata';
 import {
@@ -19,14 +18,10 @@ import {
   ArrowRight,
   Award,
   TrendingUp,
-  LinkedinIcon,
-  TwitterIcon,
-  GithubIcon,
 } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata = pageMetadata.about;
-import Image from 'next/image';
 
 const values = [
   {
@@ -55,23 +50,6 @@ const values = [
   },
 ];
 
-const team = [
-  {
-    name: 'Dawit Abebe',
-    role: 'CEO & Founder',
-    background:
-      'Visionary Software Developer with 5+ years of experience building scalable applications and leading Web3 innovation. Passionate about creating decentralized solutions that empower global talent.',
-    image: '/assets/images/me.webp',
-  },
-  {
-    name: 'Samuel John',
-    role: 'CTO & Backend Engineer',
-    background:
-      'Expert Backend Developer with 3+ years of experience architecting robust systems and blockchain infrastructure. Specializes in scalable backend solutions and smart contract integration.',
-    image: '/assets/images/olufunbi.jpg',
-  },
-];
-
 const stats = [
   {
     number: '10K+',
@@ -92,44 +70,6 @@ const stats = [
     number: '150+',
     label: 'Countries',
     description: 'Global reach across continents',
-  },
-];
-
-const milestones = [
-  {
-    year: '2023',
-    title: 'Kairox Founded',
-    description:
-      'Started with a vision to revolutionize freelancing with Web3 technology',
-  },
-  {
-    year: '2024 Q1',
-    title: 'MVP Launch',
-    description:
-      'Released our first version with basic smart contract functionality',
-  },
-  {
-    year: '2024 Q2',
-    title: 'Community Growth',
-    description:
-      'Reached 1,000 active users and processed first $100K in payments',
-  },
-  {
-    year: '2024 Q3',
-    title: 'Starknet Integration',
-    description:
-      'Full integration with Starknet for scalable and cost-effective transactions',
-  },
-  {
-    year: '2024 Q4',
-    title: 'Advanced Features',
-    description:
-      'Launched AI matching, reputation NFTs, and governance features',
-  },
-  {
-    year: '2025',
-    title: 'Global Expansion',
-    description: 'Scaling to serve the global Web3 workforce',
   },
 ];
 
